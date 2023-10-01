@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.assistant {
+  position: absolute;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000; /* Ensure it's on top */
+}
+
+.show {
+  display: block;
+}
